@@ -48,5 +48,5 @@ end
 def winner(board)
   w = won?(board)
   puts winner
-  winner != false ? board(w[0]) : nil
+  w != false ? board(w[0]) : nil
 end
