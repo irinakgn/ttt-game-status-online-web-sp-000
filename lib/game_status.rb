@@ -46,7 +46,7 @@ def over?(board)
 end
 
 def winner(board)
-  winner = won?(board)
+  wi = won?(board)
   puts winner
-  # winner != false ? board(winner[0]) : nil
+  winner != false ? board(winner[0]) : nil
 end
