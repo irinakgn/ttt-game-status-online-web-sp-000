@@ -26,5 +26,11 @@ end
 end
 
 def full?(board)
-  won?(board) ? true: false
+   board.each do |item|
+     if item != " "
+       return false
+     end
+   end
+
+   return true
 end
