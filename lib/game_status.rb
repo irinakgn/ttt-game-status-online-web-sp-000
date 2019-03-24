@@ -25,3 +25,6 @@ WIN_COMBINATIONS.each_index do |i|
 end
   return false
 end
+
+def full?(board)
+end
