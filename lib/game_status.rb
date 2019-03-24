@@ -45,6 +45,9 @@ def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
 
+
+#condtion ? conditon is true : condtion is false 
+
 def winner(board)
   w = won?(board)
   w != false ? board[w[0]] : nil
